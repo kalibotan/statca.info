@@ -79,6 +79,8 @@
 	
 	uid user
 	gid useru
+	
+	encoding utf8
 
 ### Установка Sails.js
 
