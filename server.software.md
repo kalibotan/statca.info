@@ -40,6 +40,9 @@
 Создаем исполняемый файл для запуска сервера _/usr/local/bin/Rserve_:
 
 	#!/bin/bash
+	export LANG=ru_RU.UTF-8
+	export LC_ALL=ru_RU.UTF-8
+	
 	/usr/lib/R/bin/R CMD /usr/lib/R/site-library/Rserve/libs/Rserve --vanilla --RS-conf /etc/Rserve.conf
 
 Создаем простейший скрипт для автозапуска (правильнее переписать для запуска через upstart) сервиса _/etc/init.d/rserve_:
