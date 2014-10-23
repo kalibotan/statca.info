@@ -10,8 +10,8 @@
 - nodejs-legacy ?
 - npm 1.3.10
 - mongodb 2.4.9
-- openjdk-7
-- ruby 1.9.1
+- openjdk-7 для Sencha Cmd
+- ruby 1.9.1 для Sencha Cmd
 - Sencha Cmd 5.0
 - r-base 3.1.1
 - r-cran-rserve 1.7
@@ -79,7 +79,7 @@
 	remote disable
 	
 	uid user
-	gid useru
+	gid user
 	
 	encoding utf8
 
