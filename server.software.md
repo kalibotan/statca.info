@@ -7,6 +7,7 @@
 - nginx-naxsi 1.4.6
 - nginx-naxsi-ui 1.4.6
 - nodejs 0.10.25
+- nodejs-legacy ?
 - npm 1.3.10
 - mongodb 2.4.9
 - openjdk-7
