@@ -94,17 +94,21 @@
 ### Настройка postgresql
 
 В файл pg_hba.conf добавить разрешение на подключение из соответствующей сети:
+
 	host	all	all	10.1.0.0/0	md5
 	
 В файл postgresql.conf добавить адреса, которые будет прослушивать сервис:
+
 	listen_addresses='*'
 	
 Изменение пароле пользователя postgres:
+
 	sudo su postgres
 	psql postgres postgres
 	ALTER USER postgres WITH PASSWORD 'новый пароль';
 	
 Добавление нового пользователя:
+
 	sudo su postgres
 	psql
 	CREATE USER statca WITH PASSWORD 'пароль';
