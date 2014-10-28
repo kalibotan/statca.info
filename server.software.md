@@ -10,6 +10,7 @@
 - nodejs-legacy ?
 - npm 1.3.10
 - mongodb 2.4.9
+- redis-server 2.8.4
 - openjdk-7 для Sencha Cmd
 - ruby 1.9.1 для Sencha Cmd
 - Sencha Cmd 5.0
