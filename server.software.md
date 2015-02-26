@@ -30,6 +30,7 @@
 - RJSONIO
 - pastecs
 - car
+- survival
 
 ### Установка и настройка rserve
 Предварительно необходимо установить пакет _r-cran-rserve_:
